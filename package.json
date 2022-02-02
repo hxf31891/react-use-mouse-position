@@ -1,0 +1,37 @@
+{
+  "name": "react-use-mouse-position",
+  "version": "1.0.0",
+  "description": "A light npm package to track mouse position",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hxf31891/react-use-mouse-position.git"
+  },
+  "keywords": [
+    "react",
+    "mouse-position",
+    "mouse",
+    "position",
+    "hooks"
+  ],
+  "author": {
+    "name": "Harry Fox",
+    "email": "hxfox1@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.3.0 || ^17.0.0 || ^18.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/hxf31891/react-use-mouse-position/issues"
+  },
+  "homepage": "https://github.com/hxf31891/react-use-mouse-position#readme"
+}
