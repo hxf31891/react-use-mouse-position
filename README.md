@@ -1,5 +1,5 @@
 # react-use-mouse-position
-A lightweight package to easily track mouse position in React.js
+A lightweight (1.7 kB) package to easily track mouse position in React.js
 
 ## Install
 `npm install react-use-mouse-position`
