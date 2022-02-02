@@ -13,6 +13,5 @@ function MyApp() {
   const { mouseX, mouseY } = useMousePosition();
   console.log('mouseX:', mouseX) 
 
-  ...
 }
 ```
