@@ -1,4 +1,4 @@
-# react-use-mouse-position
+# useMousePosition - a custom React hook
 A lightweight (1.7 kB) package to easily track mouse position in React.js
 
 ## Install
