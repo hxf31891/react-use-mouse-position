@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/hxf31891/react-use-mouse-position/issues"
   },
-  "homepage": "https://github.com/hxf31891/react-use-mouse-position#readme"
+  "homepage": "https://github.com/hxf31891/react-use-mouse-position#readme",
+  "publishConfig": {
+    "@hxf31891:registry": "https://npm.pkg.github.com"
+  }
 }
