@@ -14,7 +14,7 @@
 </div>
 
 # useMousePosition - a custom React hook
-- A lightweight (1.7 kB) package to easily track mouse position in React.js
+- A lightweight (508 B) package to easily track mouse position in React.js
 - Very useful for tinder style cards and other dragable elements
 
 ## Install
