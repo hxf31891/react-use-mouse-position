@@ -8,7 +8,7 @@
   <a href="https://bundlephobia.com/result?p=react-use-mouse-position">
     <img alt="" src="https://badgen.net/bundlephobia/min/react-use-mouse-position?color=2c139f" />
   </a>
-   <a href="https://github.com/hxf31891/react-use-mouse-position">
+   <a href="https://github.com/hxf31891/react-use-mouse-position/blob/main/LICENSE">
     <img alt="" src="https://badgen.net/github/license/react-use-mouse-position/react-use-mouse-position?color=2c139f" />
   </a>
 </div>
