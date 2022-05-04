@@ -14,30 +14,33 @@
 </div>
 
 # useMousePosition - a custom React hook
-- A lightweight (508 B) package to easily track mouse position in React.js
-- Very useful for tinder style cards and other dragable elements
+
+- A lightweight (508 B) package to easily track mouse position in Reactjs
+- Very useful for tinder style cards and other draggable elements
+- v1.0.2 adds a variety of touch events, improving mobile usability
 
 ## Install
+
 `npm install react-use-mouse-position`
 
-## Example 
+## Example
+
 ```js
-import React from 'react'
-import { useMousePosition } from 'react-use-mouse-position'
+import React from "react";
+import { useMousePosition } from "react-use-mouse-position";
 
 function MyApp() {
   const { mouseX, mouseY } = useMousePosition();
-  console.log('mouseX:', mouseX) 
-
+  console.log("mouseX:", mouseX);
 }
 ```
 
 ### `useMousePosition` returns
 
-| Name             | Type         | Default   | Description                                                                      |
-| ---------------- | ------------ | --------- | -------------------------------------------------------------------------------- |
-| mouseX           | `num`        |           | The mouses current x position                                                    |
-| mouseY           | `num`        |           | The mouses current y position                                                    |
+| Name   | Type  | Default | Description                   |
+| ------ | ----- | ------- | ----------------------------- |
+| mouseX | `num` |         | The mouses current x position |
+| mouseY | `num` |         | The mouses current y position |
 
 ## License
 
