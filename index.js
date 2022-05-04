@@ -11,8 +11,9 @@ const useMousePosition = () => {
   };
 
   const updateTouchPosition = ev => {
-    if (ev?.changedTouches?.length > 0) {
-      let touch = ev?.changedTouches[0];
+    let touches = ev.changedTouches || [];
+    if (touches.length > 0) {
+      let touch = touches[0];
       setMousePosition({ mouseX: touch.clientX, mouseY: touch.clientY });
     }
   };
