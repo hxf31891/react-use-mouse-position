@@ -10,19 +10,26 @@ const useMousePosition = () => {
     setMousePosition({ mouseX: ev.clientX, mouseY: ev.clientY });
   };
 
+  const updateTouchPosition = ev => {
+    if (ev?.changedTouches?.length > 0) {
+      let touch = ev?.changedTouches[0];
+      setMousePosition({ mouseX: touch.clientX, mouseY: touch.clientY });
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("mousemove", updateMousePosition);
-    window.addEventListener("touchstart", updateMousePosition);
-    window.addEventListener("touchmove", updateMousePosition);
-    window.addEventListener("touchend", updateMousePosition);
-    window.addEventListener("touchcancel", updateMousePosition);
+    window.addEventListener("touchstart", updateTouchPosition);
+    window.addEventListener("touchmove", updateTouchPosition);
+    window.addEventListener("touchend", updateTouchPosition);
+    window.addEventListener("touchcancel", updateTouchPosition);
 
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
-      window.removeEventListener("touchstart", updateMousePosition);
-      window.removeEventListener("touchmove", updateMousePosition);
-      window.removeEventListener("touchend", updateMousePosition);
-      window.removeEventListener("touchcancel", updateMousePosition);
+      window.removeEventListener("touchstart", updateTouchPosition);
+      window.removeEventListener("touchmove", updateTouchPosition);
+      window.removeEventListener("touchend", updateTouchPosition);
+      window.removeEventListener("touchcancel", updateTouchPosition);
     };
   }, []);
 

@@ -1,6 +1,6 @@
 {
   "name": "react-use-mouse-position",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A light npm package to track mouse position",
   "main": "index.js",
   "scripts": {
